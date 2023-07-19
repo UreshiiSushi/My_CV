@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  background-color:  #F5F7FA;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration-color: #595959;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+/* #region aside */
+.aside{
+  max-width: 370px;
+  background: #1E2939;
+}
+
+.aside__photo {
+  margin: 25px 0 0 0;
+}
+
+.aside__contact {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+
+.aside__tech-skills {
+  margin-top: 44px;
+  margin-left: 40px;
+}
+.aside__soft-skills {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+
+.aside__header-secondary {
+  color: #fff;
+}
+
+.aside__block__text{
+  color: #fff;
+  font-weight: 700;
+}
+
+.aside__link{
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.5;
+}
+
+.aside__list {
+  color: #FB6D3A;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+.aside__list__item{
+  color: #fff;
+}
+
+/* #endregion */
+
+/* #region main */
+.main{
+  padding: 102px 88px 88px 102px;
+}
+
+/* #region main-description */
+.main-description {
+  max-width: 420px;
+  margin-bottom: 40px;
+}
+
+.main-description__title{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.main-description__name {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.main-description__text{
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* #endregion */
+
+/* #region projects */
+
+.projects{
+  max-width: 485px;
+  margin-bottom: 51px;
+}
+
+.projects__title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.projects__list {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.projects__list-item__link{
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; 
+  text-decoration-line: none;
+}
+
+/* #endregion */
+
+/* #region job */
+
+.job__title{
+  margin-top: 16px;
+  margin-bottom: 12px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.job__employ{
+  color: #FB6D3A;
+}
+
+.job__time{
+  color: #A8A8A8;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.job__list{
+  padding: 0;
+  list-style-position: inside;
+  color: #595959;
+  font-size: 14px;
+  line-height: 24px; 
+}
+
+/* #endregion */
+
+/* #region education */
+
+.education{
+  margin-top: 43px;
+}
+
+.education__title{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.education__place{
+  color: #FB6D3A;
+  font-size: 16px;
+  font-weight: 700;
+}
+.education__route{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+.education__time{
+  color: #A8A8A8;
+  font-size: 12px;
+}
+
+/* #endregion */
+
+
+/* #endregion */
